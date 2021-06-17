@@ -3,7 +3,7 @@ import Home from "./components/Home.js";
 import About from "./components/About.js";
 import SinglePost from "./components/SinglePost.js";
 import Post from "./components/Post.js";
-import Projects from "./components/Projects.js";
+import Projects from "./components/Project.js";
 import Art from "./components/Art.js";
 import Photography from "./components/Photography.js";
 import NavBar from "./components/NavBar.js";
@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
+    
       <Switch>
         <Route component={Home} path='/' exact />
         <Route component={Photography} path='/photography' />
@@ -20,7 +20,7 @@ function App() {
         <Route component={About} path='/about' />
         <Route component={SinglePost} path='/post:/slug' />
         <Route component={Post} path='/post' />
-        <Route component={Projects} path='/projects' />
+        <Route component={Projects} path='/project' />
       </Switch>
     </BrowserRouter>
   );

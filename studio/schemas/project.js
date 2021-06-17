@@ -17,7 +17,7 @@ export default{
       },
     },{
         name:"description",
-        type:"string"
+        type:"text",
     },{
         name: "projectType",
         title: "Project type",

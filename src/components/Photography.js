@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import sanityClient from "../client.js";
+import NavBar from "./NavBar.js";
 
-export default function Projects() {
+export default function Photography() {
     const [postData, setPost] = useState(null);
 
     useEffect(() => {
@@ -25,10 +26,10 @@ export default function Projects() {
 
 
     return (
-        <main className="bg-black min-h-screen p-6">
+        <main className="bg-black min-h-screen p-4">
             <section className="container mx-auto p-4">
-                <h1 className="text-5xl text-white flex justify-center">PHOTOGRAPHY</h1>
-                <h2 className="text-lg text-white flex justify-center m-6">HERE YOU WILL FIND MY PHOTOGRAPHY PORTFOLIO</h2>
+                <h1 className="text-5xl text-white flex justify-center pt-20">PHOTOGRAPHY</h1>
+                <NavBar />
                 <div className="grid grid-cols-4 gap-3">
                    {postData && postData.map((post, index) => (<article>
                         <Link to={"/post/" + post.slug.current} key={post.slug.current}>

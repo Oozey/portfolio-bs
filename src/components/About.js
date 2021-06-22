@@ -41,7 +41,7 @@ export default function About() {
                     <img src={urlFor(author.authorImage).url()} className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8" alt={author.name}/>
                     <div className="text-lg flex flex-col justify-center">
                         <h1 className="cursive text-4xl text-white mb-4">
-                            Hi, I'm {" "}
+                            Welcome, my name is {" "}
                             <span className="text-white-100">{author.name}</span>
                         </h1>
                         <div className="prose lg:prose-xl text-white">

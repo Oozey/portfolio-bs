@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Inleiding 
+Een applicatie gemaakt met [React.js](https://reactjs.org/) en [Sanity](https://www.sanity.io/). Met de applicatie communiceer je met Sanity om zo verschillende data te visualiseren op de applicatie.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Functionaliteiten
 
-## Available Scripts
+Met de applicatie kan je verschillende data uit Sanity halen.
 
-In the project directory, you can run:
+Wanneer je bent ingelogd op Sanity kan je verschillende posts en afbeeldingen uploaden die dan gelijk op de applicatie terecht komen.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Eisen
+- Wil je de applicatie zelf testen dan moet je je eigen Sanity Key in src/client.js plaatsen.
+- Hiervoor moet je eerst een eigen Sanity Account aanmaken. 
+- Om de applicatie goed te kunnen starten moet je NPM Commands kunnen uitvoeren in je terminal (Node.js)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Setup en builden applicatie REACT
+Als je de package installer gedownload heb kun je deze commando's uitvoeren in je terminal.
 
-### `yarn build`
+## install dependencies
+```npm install```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## serve with hot reload at localhost:3000
+``` npm run dev ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## build for production with minification
+```npm run build```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## build for production and view the bundle analyzer report
+```npm run build --report```
 
-### `yarn eject`
+## run unit tests
+```npm run unit```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## run all tests
+```npm test```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Setup en builden applicatie SANITY
+Als je de package installer gedownload heb kun je deze commando's uitvoeren in je terminal.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## install dependencies
+```npm install```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## serve with hot reload at localhost:3000
+``` sanity start ```
 
-## Learn More
+## build for production with minification
+```sanity build```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## build for production and view the bundle analyzer report
+```sanity build --report```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
